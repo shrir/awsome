@@ -29,17 +29,17 @@ optional arguments:
 ### List Instances
 
 List specified properties of all instances:
-`python3 awsome.py list id state.Name`
+`python3 -m awsome list id state.Name`
 
 ### Describe Instances
 
 Describe instances matching given instance ids or tags:
-`python3 awsome.py describe -t Node:server`
+`python3 -m awsome describe -t Node:server`
 
 ### Create Instances
 
 Create instances as described in the `config.py` and run commands
-`python3 awsome.py create`
+`python3 -m awsome create`
 
 #### Instance definitions
 
@@ -89,19 +89,19 @@ Note: A list of supported instance definition options can be found in [AWS docum
 ### Start Instances
 
 Start instances by instance ids
-`python3 awsome.py start i-08bae47dadb036151 i-08baf47dabb031351`
+`python3 -m awsome start i-08bae47dadb036151 i-08baf47dabb031351`
 
 ### Stop Instances
 
 Stop instances by instance ids
-`python3 awsome.py stop i-08bae47dadb036151 i-08baf47dabb031351`
+`python3 -m awsome stop i-08bae47dadb036151 i-08baf47dabb031351`
 
 ### Reboot Instances
 
 Reboot instances by instance ids
-`python3 awsome.py reboot i-08bae47dadb036151 i-08baf47dabb031351`
+`python3 -m awsome reboot i-08bae47dadb036151 i-08baf47dabb031351`
 
 ### Terminate Instances
 
 Terminate instances by instance ids
-`python3 awsome.py terminate i-08bae47dadb036151 i-08baf47dabb031351`
+`python3 -m awsome terminate i-08bae47dadb036151 i-08baf47dabb031351`
